@@ -114,3 +114,40 @@
   opacity: 1;
 }
 /* HeaderMenu End */
+/* Body Paints */
+#bodypaints {
+  width: 1920px;
+  height: 4930px;
+  position: absolute;
+  top: 52px;
+  opacity: 1;
+  display: flex;
+  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+}
+#bodypaintssection {
+  width: 1920px;
+  height: 52px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+#bodypaintssection1 {
+  width: 675px;
+  height: 20px;
+  opacity: 1;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(29, 29, 31, 1);
+}
+/* Body Paints End */
+/* Backgrounds */
+
+/* Backgrounds */
