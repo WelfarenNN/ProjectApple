@@ -16,15 +16,16 @@
   display: flex;
   justify-content: center;
   position: sticky;
-  z-index: inherit;
+  z-index: 100;
+  margin: 0 auto;
 }
-#headertextscontainer{
-    display: flex;
-    gap: 24px;
+#headertextscontainer {
+  display: flex;
+  gap: 24px;
 }
-#shopitemcontainer{
-    display: flex;
-    gap: 24px;
+#shopitemcontainer {
+  display: flex;
+  gap: 24px;
 }
 #headerlogo {
   width: 30px;
@@ -117,12 +118,10 @@
 /* Body Paints */
 #bodypaints {
   width: 1920px;
-  height: 4930px;
-  position: absolute;
-  top: 52px;
-  opacity: 1;
   display: flex;
-  background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 #bodypaintssection {
   width: 1920px;
@@ -149,5 +148,191 @@
 }
 /* Body Paints End */
 /* Backgrounds */
-
+#backgroundcontainer1 {
+  margin: 0 auto;
+  width: 1920px;
+  height: 2100px;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  gap: 12px;
+  z-index: 1;
+}
+#background1 {
+  width: 1920px;
+  height: 692px;
+  background-image: url(./PicturesApple/pro.png);
+  background-size: cover;
+}
+#background2 {
+  width: 1920px;
+  height: 692px;
+  background-image: url(./PicturesApple/phonepic.png);
+  background-size: cover;
+}
+#background3 {
+  width: 1920px;
+  height: 692px;
+  background-image: url(./PicturesApple/applegiftlogo.png);
+  background-size: cover;
+}
+.bg1-2 {
+  width: 405px;
+  height: 172px;
+  opacity: 1;
+  top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bg3 {
+  width: 405px;
+  height: 172px;
+  opacity: 1;
+  top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bgtextbig {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  text-align: center;
+  vertical-align: middle;
+}
+.bgtextsmall {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.bginnercontainer {
+  width: 405px;
+  height: 164px;
+  opacity: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55px;
+  left: 757px;
+}
+.bginnercontainer1 {
+  width: 405px;
+  height: 108px;
+  opacity: 1;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  width: 207px;
+  height: 44px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+#bg3button {
+  width: 114px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  opacity: 1;
+}
+#bg3lm {
+  width: 114px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  opacity: 1;
+  border-radius: 999px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 113, 227, 1);
+}
+.buttontexts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.37px;
+  text-align: center;
+  vertical-align: middle;
+}
+.buybutton {
+  width: 68px;
+  height: 44px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  border-radius: 999px;
+  border-width: 1px;
+  box-sizing: border-box;
+  border: 1px solid rgba(41, 151, 255, 1);
+}
+.learnmore {
+  width: 123px;
+  height: 44px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 999px;
+  background: rgba(0, 113, 227, 1);
+}
+#bgtextblack {
+  color: rgba(0, 0, 0, 1);
+}
+#bgtextwhite {
+  color: rgba(245, 245, 247, 1);
+}
+.framecontainer {
+  width: 405px;
+  height: 172px;
+  top: 55px;
+  left: 757px;
+  opacity: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.framecontainer3 {
+  width: 405px;
+  height: 164px;
+  opacity: 1;
+  top: 446px;
+  left: 757px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* Backgrounds */
