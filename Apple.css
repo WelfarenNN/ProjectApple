@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* HeaderMenu Start */
+#headercontainer {
+  width: 1920px;
+  height: 44px;
+  position: absolute;
+  top: 8px;
+  opacity: 1;
+  gap: 24px;
+  background: rgba(245, 245, 247, 0.8);
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  z-index: inherit;
+}
+#headertextscontainer{
+    display: flex;
+    gap: 24px;
+}
+#shopitemcontainer{
+    display: flex;
+    gap: 24px;
+}
+#headerlogo {
+  width: 30px;
+  height: 44px;
+  opacity: 1;
+  background-image: url(./PicturesApple/logo.png);
+  background-size: cover;
+}
+#headershop {
+  width: 30px;
+  height: 44px;
+  opacity: 1;
+  background-image: url(./PicturesApple/shop.png);
+  background-size: cover;
+}
+#headeritem {
+  width: 30px;
+  height: 44px;
+  background-image: url(./PicturesApple/button.png);
+  background-size: cover;
+}
+.headertexts {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+}
+#store {
+  width: 30px;
+  height: 44px;
+  opacity: 1;
+}
+#mac {
+  width: 24px;
+  height: 44px;
+  opacity: 1;
+}
+#ipad {
+  width: 24px;
+  height: 44px;
+  opacity: 1;
+}
+#iphone {
+  width: 38px;
+  height: 44px;
+  opacity: 1;
+}
+#watch {
+  width: 35px;
+  height: 44px;
+  opacity: 1;
+}
+#vision {
+  width: 33px;
+  height: 44px;
+  opacity: 1;
+}
+#airpods {
+  width: 43px;
+  height: 44px;
+  opacity: 1;
+}
+#tvhome {
+  width: 62px;
+  height: 44px;
+  opacity: 1;
+}
+#entertainment {
+  width: 77px;
+  height: 44px;
+  opacity: 1;
+}
+
+#accessories {
+  width: 66px;
+  height: 44px;
+  opacity: 1;
+}
+#support {
+  width: 44px;
+  height: 44px;
+  opacity: 1;
+}
+/* HeaderMenu End */
