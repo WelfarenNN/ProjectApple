@@ -6,7 +6,7 @@
 
 /* HeaderMenu Start */
 #headercontainer {
-  width: 1920px;
+  width: 100vw;
   height: 44px;
   position: absolute;
   top: 8px;
@@ -117,14 +117,14 @@
 /* HeaderMenu End */
 /* Body Paints */
 #bodypaints {
-  width: 1920px;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
 #bodypaintssection {
-  width: 1920px;
+  width: 100vw;
   height: 52px;
   opacity: 1;
   display: flex;
@@ -147,11 +147,10 @@
   color: rgba(29, 29, 31, 1);
 }
 /* Body Paints End */
-/* Backgrounds */
+/* Backgrounds Start*/
 #backgroundcontainer1 {
   margin: 0 auto;
-  width: 1920px;
-  height: 2100px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   opacity: 1;
@@ -160,19 +159,19 @@
   top: -96px;
 }
 #background1 {
-  width: 1920px;
+  width: 100vw;
   height: 692px;
   background-image: url(./PicturesApple/pro.png);
   background-size: cover;
 }
 #background2 {
-  width: 1920px;
+  width: 100vw;
   height: 692px;
   background-image: url(./PicturesApple/phonepic.png);
   background-size: cover;
 }
 #background3 {
-  width: 1920px;
+  width: 100vw;
   height: 692px;
   background-image: url(./PicturesApple/applegiftlogo.png);
   background-size: cover;
@@ -266,6 +265,23 @@
   opacity: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  border-radius: 999px;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+.buy2 {
+  width: 68px;
+  height: 40px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   padding-top: 12px;
   padding-right: 20px;
@@ -281,6 +297,22 @@
   opacity: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 999px;
+}
+.learnmore2 {
+  width: 115px;
+  height: 40px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   padding-top: 12px;
   padding-right: 20px;
@@ -334,10 +366,10 @@
   justify-content: center;
   align-items: center;
 }
-/* Backgrounds */
+/* Backgrounds End*/
 /* Wrap Pictures Start */
 #wrapcontainer {
-  width: 1920px;
+  width: 100vw;
   opacity: 1;
   display: flex;
   flex-wrap: wrap;
@@ -345,6 +377,274 @@
   z-index: 1;
   gap: 12px;
   margin: 0 auto;
+  top: -28px;
+}
+.wraptextsmall {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.wraptextbig {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+.wraptextbold {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+#rainbowcolor {
+  width: 169px;
+  height: 18px;
+  position: absolute;
+  top: 509px;
+  left: 386px;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  background: linear-gradient(
+    90.43deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+.vectorlogo {
+  width: 26.35293960571289px;
+  height: 32px;
+  opacity: 1;
+  background-image: url(./PicturesApple/applevector.png);
+  background-size: cover;
+}
+.vectorcontainer5-6 {
+  width: 322px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  opacity: 1;
+}
+.wrapinnercontainer {
+  width: 322px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  opacity: 1;
+}
+.containervector {
+  width: 152px;
+  height: 61px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  opacity: 1;
+}
+.vectorcontainer {
+  width: 172px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  opacity: 1;
+}
+.wrappic4innercontainer {
+  width: 370px;
+  height: 121px;
+  position: absolute;
+  top: 48px;
+  left: 286px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  opacity: 1;
+}
+.wrappic4textcontainer {
+  width: 370px;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  opacity: 1;
+}
+
+#wrap6buttonlayout {
+  width: 246px;
+  height: 40px;
+  display: flex;
+  gap: 16px;
+  opacity: 1;
+}
+.lm5layout {
+  width: 167px;
+  height: 40px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 999px;
+}
+#applylayout {
+  width: 112px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  opacity: 1;
+  opacity: 1;
+  border-radius: 999px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  border-width: 1px;
+  border: 1px solid rgba(0, 113, 227, 1);
+  color: rgba(0, 113, 227, 1);
+  box-sizing: border-box;
+}
+#series10 {
+  width: 152;
+  height: 18;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 1);
+}
+#wrappic1header {
+  width: 430px;
+  height: 33px;
+  position: absolute;
+  top: 58px;
+  left: 256px;
+  opacity: 1;
+  background-image: url(./PicturesApple/bg13header.png);
+  background-size: cover;
+}
+#wrappic1 {
+  width: 49%;
+  height: 580px;
+  background-image: url(./PicturesApple/Figure.png);
+  background-size: cover;
+  position: relative;
+}
+#wrappicposition1 {
+  position: absolute;
+  top: 100px;
+  left: 310px;
+  width: 322px;
+}
+#wrapbuttonposition1 {
+  position: absolute;
+  top: 145px;
+  left: 371px;
+}
+#wrappic2 {
+  width: 49%;
+  height: 580px;
+  background-image: url(./PicturesApple/Figure1.png);
+  background-size: cover;
+  position: relative;
+}
+#wrappicposition2 {
+  width: 238px;
+  position: absolute;
+  top: 401px;
+  left: 352px;
+  color: rgba(245, 245, 247, 1);
+}
+#wrappicposition2-1 {
+  position: absolute;
+  top: 447px;
+  left: 286px;
+  width: 370px;
+  color: rgba(245, 245, 247, 1);
+}
+#wrapbuttonposition2 {
+  position: absolute;
+  top: 482px;
+  left: 371px;
+}
+
+#wrappic3 {
+  width: 49%;
+  height: 580px;
+  background-image: url(./PicturesApple/Figure2.png);
+  background-size: cover;
+  position: relative;
+}
+.wrappic3and5container {
+  width: 322px;
+  height: 146px;
+  position: absolute;
+  top: 58px;
+  left: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  opacity: 1;
+}
+#wrappic4 {
+  width: 49%;
+  height: 580px;
+  background-image: url(./PicturesApple/Figure3.png);
+  background-size: cover;
+  position: relative;
+}
+
+#wrappic5 {
+  width: 49%;
+  height: 580px;
+  background-image: url(./PicturesApple/Figure4.png);
+  background-size: cover;
+  position: relative;
+}
+
+#wrappic6 {
+  width: 49%;
+  height: 580px;
+  background-image: url(./PicturesApple/Figure5.png);
+  background-size: cover;
+  position: relative;
 }
 
 /* Wrap Pictures End */
