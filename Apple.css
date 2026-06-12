@@ -3,6 +3,16 @@
   padding: 0;
   position: relative;
 }
+#BIGCONTAINER{
+  width: 100vw;
+height: 4880px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+opacity: 1;
+}
 
 /* HeaderMenu Start */
 #headercontainer {
@@ -125,13 +135,10 @@
 }
 #bodypaintssection {
   width: 100vw;
-  height: 52px;
   opacity: 1;
   display: flex;
   justify-content: center;
-  gap: 4px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 4px;
   background: rgba(255, 255, 255, 1);
 }
 #bodypaintssection1 {
@@ -156,7 +163,6 @@
   opacity: 1;
   gap: 12px;
   z-index: 1;
-  top: -96px;
 }
 #background1 {
   width: 100vw;
@@ -175,24 +181,6 @@
   height: 692px;
   background-image: url(./PicturesApple/applegiftlogo.png);
   background-size: cover;
-}
-.bg1-2 {
-  width: 405px;
-  height: 172px;
-  opacity: 1;
-  top: 55px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.bg3 {
-  width: 405px;
-  height: 172px;
-  opacity: 1;
-  top: 55px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 .bgtextbig {
   font-weight: 600;
@@ -377,7 +365,6 @@
   z-index: 1;
   gap: 12px;
   margin: 0 auto;
-  top: -28px;
 }
 .wraptextsmall {
   font-weight: 400;
@@ -649,17 +636,14 @@
 /* Wrap Pictures End */
 /* Scroll Start */
 #scrollcontainer {
-  width: 3782px;
+  width: 100vw;
   height: 668px;
-  position: absolute;
-  top: 3984px;
   display: flex;
   gap: 16px;
   opacity: 1;
   overflow-x: scroll;
   scrollbar-width: none;
 }
-
 #scroll1 {
   width: 1250px;
   height: 668px;
@@ -751,3 +735,89 @@
   color: rgba(255, 255, 255, 1);
 }
 /* Scroll End */
+#tablist {
+  width: 220px;
+  height: 9px;
+  background-image: url(./PicturesApple/tablist.png);
+  background-size: cover;
+}
+/* Section Start */
+#sectioncontainer {
+  width: 100vw;
+  height: 292px;
+  position: relative;
+  opacity: 1;
+  background: rgba(255, 255, 255, 1);
+}
+
+#buttonskip {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 252px;
+  left: 1880px;
+  opacity: 1;
+  border-radius: 12px;
+  background-color: rgba(210, 210, 215, 1);
+  background-image: url(./PicturesApple/skip.png);
+  background-size: cover;
+  z-index: 1;
+}
+#innersection {
+  width: 100vw;
+  height: 236px;
+  opacity: 1;
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.sectionlayouts {
+  width: 417px;
+  height: 236px;
+  opacity: 1;
+  box-sizing: border-box;
+}
+#sectionimg1 {
+  width: 417px;
+  height: 236px;
+  opacity: 1;
+  background-image: url(./PicturesApple/section1.png);
+  background-size: cover;
+  z-index: 1;
+}
+#sectionimg2 {
+  width: 417px;
+  height: 236px;
+  opacity: 1;
+  background-image: url(./PicturesApple/section2.png);
+  background-size: cover;
+  z-index: 1;
+}
+#sectionimg3 {
+  width: 417px;
+  height: 236px;
+  opacity: 1;
+  background-image: url(./PicturesApple/section3.png);
+  background-size: cover;
+  z-index: 1;
+}
+#sectionimg4 {
+  width: 417px;
+  height: 236px;
+  opacity: 1;
+  background-image: url(./PicturesApple/section4.png);
+  background-size: cover;
+  z-index: 1;
+}
+#sectionimg5 {
+  width: 417px;
+  height: 236px;
+  opacity: 1;
+  background-image: url(./PicturesApple/section5.jpg);
+  background-size: cover;
+  z-index: 1;
+}
+
+/* Section End */
+/* Section End */
