@@ -23,14 +23,76 @@
   }
   /* Body section end */
   /* Background start */
-  #backgroundcontainer1{
-    display: flex;
-  }
-  
-  #background1{
+  #wrappic1 {
+    width: 100vw;
     height: 650px;
-    background-image: url(./PicturesApple/tablet1.png) no-repeat center;
+    background-image: url(./PicturesApple/tabletair.png);
     background-size: cover;
   }
+  .framecontainer {
+    top: 58px;
+    left: 182px;
+  }
+  #rainbowcolor {
+    top: 586px;
+    left: 316px;
+  }
+  #wrapbuttonposition1 {
+    left: 280px;
+  }
+  #wrappicposition1 {
+    left: 225px;
+  }
+  #wrappic1header {
+    left: 180px;
+  }
+  #background1 {
+    height: 650px;
+    background-image: url(./PicturesApple/tablet1.png);
+    background-size: cover;
+  }
+  #background2 {
+    height: 650px;
+    background-image: url(./PicturesApple/tablet2.png);
+    background-size: cover;
+  }
+  #background3 {
+    display: none;
+  }
   /* Background End */
+  /* Wrap Pictures Start */
+  #wrappic2 {
+    height: 490px;
+    background-image: url(./PicturesApple/tablet3.png);
+    background-size: cover;
+  }
+  #wrappic3 {
+    height: 490px;
+    background-image: url(./PicturesApple/tablet4.png);
+    background-size: cover;
+  }
+  #wrappic4 {
+    height: 490px;
+    background-image: url(./PicturesApple/wraptab4.png);
+    background-size: cover;
+  }
+  #wrappic5 {
+    height: 490px;
+    background-image: url(./PicturesApple/wraptab5.png);
+    background-size: cover;
+  }
+  #wrappic6 {
+    display: none;
+  }
+  .wrappic4innercontainer{
+    top: 42px;
+    left: 16px;
+  }
+  #pic4 {
+    display: flex;
+  }
+  #pic5 {
+    display: flex;
+  }
+  /* Wrap Pictures End */
 }
