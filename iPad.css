@@ -89,6 +89,11 @@
     top: 42px;
     left: 16px;
   }
+  .wrappic3and5container{
+    top: 30px;
+    left: 24px;
+  }
+  
   #pic4 {
     display: flex;
   }
@@ -110,7 +115,7 @@
     display: none;
   }
   #frame24{
-    
+
   }
 
   /* Wrap Pictures End */
