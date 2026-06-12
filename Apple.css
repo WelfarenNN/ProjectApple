@@ -3,15 +3,15 @@
   padding: 0;
   position: relative;
 }
-#BIGCONTAINER{
+#BIGCONTAINER {
   width: 100vw;
-height: 4880px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 12px;
-opacity: 1;
+  height: 4880px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  opacity: 1;
 }
 
 /* HeaderMenu Start */
