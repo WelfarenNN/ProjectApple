@@ -1,7 +1,36 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-
-
-
-
-    
+  #BIGCONTAINER {
+    display: flex;
+  }
+  /* HeaderMenu start */
+  #headertextscontainer {
+    display: none;
+  }
+  #headercontainer {
+    height: 48px;
+    justify-content: space-between;
+  }
+  #headermenu {
+    display: flex;
+  }
+  /* Headermenu End */
+  /* Body section start */
+  #bodypaints {
+    height: 48px;
+  }
+  #bodypaintssection {
+    height: 16px;
+  }
+  /* Body section end */
+  /* Background start */
+  #backgroundcontainer1{
+    display: flex;
+  }
+  
+  #background1{
+    height: 650px;
+    background-image: url(./PicturesApple/tablet1.png) no-repeat center;
+    background-size: cover;
+  }
+  /* Background End */
 }

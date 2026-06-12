@@ -57,6 +57,20 @@
   background-image: url(./PicturesApple/button.png);
   background-size: cover;
 }
+#headermenu{
+  width: 48px;
+  height: 48px;
+  display: none;
+  justify-content: start;
+  align-items: center;
+}
+#menupic {
+  width: 18px;
+  height: 18px;
+  background-image: url(./PicturesApple/menu.png);
+  background-size: cover;
+  opacity: 0.8;
+}
 .headertexts {
   font-weight: 400;
   font-size: 12px;
@@ -170,6 +184,7 @@
   background-image: url(./PicturesApple/pro.png);
   background-size: cover;
 }
+
 #background2 {
   width: 100vw;
   height: 692px;
@@ -617,7 +632,22 @@
   background-size: cover;
   position: relative;
 }
-
+#pic4 {
+  width: 49%;
+  height: 490px;
+  display: none;
+  background-image: url(./PicturesApple/pic4.png);
+  background-size: cover;
+  position: relative;
+}
+#pic5 {
+  width: 49%;
+  height: 490px;
+  display: none;
+  background-image: url(./PicturesApple/pic5.png);
+  background-size: cover;
+  position: relative;
+}
 #wrappic5 {
   width: 49%;
   height: 580px;
@@ -641,49 +671,42 @@
   display: flex;
   gap: 16px;
   opacity: 1;
+  box-sizing: border-box;
   overflow-x: scroll;
   scrollbar-width: none;
+  overflow-y: hidden;
 }
 #scroll1 {
-  width: 1250px;
-  height: 668px;
+  min-width: 1250px;
   opacity: 1;
-  background-image: url(./PicturesApple/scroll1.jpg);
+  background: url(./PicturesApple/scroll1.jpg) no-repeat center;
   background-size: cover;
   z-index: 1;
+  object-fit: cover;
 }
 #scroll2 {
-  width: 1250px;
-  height: 668px;
+  min-width: 1250px;
   opacity: 1;
-  background-image: url(./PicturesApple/scroll2.png);
+  background: url(./PicturesApple/scroll2.png) no-repeat center;
   background-size: cover;
   z-index: 1;
   position: relative;
+  object-fit: cover;
 }
 #scroll3 {
-  width: 1250px;
-  height: 668px;
+  min-width: 1250px;
   opacity: 1;
-  background-image: url(./PicturesApple/scroll3.jpg);
+  background: url(./PicturesApple/scroll3.jpg) no-repeat center;
   background-size: cover;
   z-index: 1;
+  object-fit: cover;
 }
-#scroll2layout {
-  width: 1250px;
-  height: 668px;
-  opacity: 1;
-  background: radial-gradient(
-    100% 33% at 0% 100%,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
+
 #frame68 {
   width: 133px;
   height: 44px;
   position: absolute;
-  top: 566px;
+  top: 556px;
   left: 70px;
   display: flex;
   justify-content: center;
@@ -722,7 +745,7 @@
   width: 353px;
   height: 20px;
   position: absolute;
-  top: 580px;
+  top: 568px;
   left: 223px;
   opacity: 1;
 }
@@ -754,8 +777,8 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 252px;
-  left: 1880px;
+  top: 238px;
+  left: 1896px;
   opacity: 1;
   border-radius: 12px;
   background-color: rgba(210, 210, 215, 1);
