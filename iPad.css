@@ -1,6 +1,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   #BIGCONTAINER {
     display: flex;
+    height: auto;
   }
   /* HeaderMenu start */
   #headertextscontainer {
@@ -84,7 +85,7 @@
   #wrappic6 {
     display: none;
   }
-  .wrappic4innercontainer{
+  .wrappic4innercontainer {
     top: 42px;
     left: 16px;
   }
@@ -94,5 +95,23 @@
   #pic5 {
     display: flex;
   }
+  .airpod4container {
+    width: 241px;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    top: 287px;
+    left: 63px;
+  }
+  #hide{
+    display: none;
+  }
+  #frame24{
+    
+  }
+
   /* Wrap Pictures End */
 }
