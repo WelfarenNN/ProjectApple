@@ -591,9 +591,9 @@
   left: 352px;
   color: rgba(245, 245, 247, 1);
 }
-.airpod4container {
+/* .airpod4container {
   display: none;
-}
+} */
 #wrappicposition2-1 {
   position: absolute;
   top: 447px;
@@ -687,7 +687,7 @@
   background: url(./PicturesApple/scroll1.jpg) no-repeat center;
   background-size: cover;
   z-index: 1;
-  object-fit: cover;
+
 }
 #scroll2 {
   min-width: 1250px;
@@ -848,5 +848,3 @@
 }
 
 /* Section End */
-/* Section End */
-/* fix */

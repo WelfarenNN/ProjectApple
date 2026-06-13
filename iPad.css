@@ -114,7 +114,19 @@
   #hide {
     display: none;
   }
-
+  /* Frame24 start */
+  #frame24container {
+    width: 241px;
+    height: 161px;
+    position: absolute;
+    top: 287px;
+    left: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  /* Frame24 end */
   /* Wrap Pictures End */
 }
-/* fix */
